@@ -14,5 +14,6 @@ A Python based assistant with a modern web interface built using Python, Eel, HT
 - CSS  
 - JavaScript
 
+#### Run
 ```bash
 python main.py
