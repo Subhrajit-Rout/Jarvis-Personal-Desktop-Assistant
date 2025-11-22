@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis Interface</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="arc-container">
+        <div class="arc-header">
+            <div class="title-group">
+                <i class="fas fa-satellite-dish logo-icon"></i> <!-- Changed icon -->
+                <h1 class="title">Jarvis AI</h1>
+            </div>
+            <div class="status-indicator">
+                <span class="status-text">Network Active</span>
+                <div class="status-dot"></div>
+            </div>
+        </div>
+
+        <div id="conversation-area" class="conversation-area">
+            <div class="initial-prompt">
+                Tap mic to activate Jarvis
+            </div>
+        </div>
+        
+        <div class="mic-button-container">
+            <button id="mic-button" class="mic-button">
+                <div class="pulse-effect"></div>
+                <i id="mic-icon" class="fas fa-microphone icon"></i>
+                <span id="mic-text">Activate Jarvis</span>
+            </button>
+        </div>
+    </div>
+    <script src="/eel.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
